@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us forn</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #008b8b ;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .box1 {
+            margin: 4% auto;
+            width: 1140px;
+            height: 260px;
+            background-color: transparent ;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            z-index: -;
+        }
+
+        .box1 .boxa {
+            width: 270px;
+            height: 260px;
+            background-color: #fff;
+        }
+
+        .boxa img {
+           margin: 30px 0 0 100px;
+        }
+
+        .boxa h2 {
+           margin: 20px 0 0 0;
+           font-size: 19px;
+           text-align: center;
+        }
+
+        .boxa p {
+            text-align: center;
+            margin-top: 25px;
+           font-size: 18px;
+        }
+
+        .box1 .boxb {
+            width: 270px;
+            height: 260px;
+            background-color: #fff;
+        }  
+
+        .boxb img {
+           margin: 30px 0 0 100px;
+        }
+
+        .boxb h2 {
+            margin: 20px 0 0 0;
+           font-size: 19px;
+           text-align: center;
+        }
+
+        .boxb p {
+            text-align: center;
+           margin-top: 25px;
+           font-size: 18px;
+        }
+
+        .box1 .boxc {
+            width: 270px;
+            height: 260px;
+            background-color: #fff;
+        }
+
+        .boxc img {
+           margin: 30px 0 0 100px;
+        }
+
+        .boxc h2 {
+            margin: 20px 0 0 0;
+           font-size: 19px;
+           text-align: center;
+        }
+
+        .boxc p {
+            text-align: center;
+           margin-top: 25px;
+           font-size: 18px;
+        }
+
+        .box1 .boxd {
+            width: 270px;
+            height: 260px;
+            background-color: #fff;
+        }
+
+        .boxd img {
+           margin: 30px 0 0 100px;
+        }
+
+        .boxd h2 {
+            margin: 20px 0 0 0;
+           font-size: 19px;
+           text-align: center;
+        }
+
+        .boxd p {
+           text-align: center;
+           margin-top: 25px;
+           font-size: 18px;
+        }
+
+        .box2 {
+            width: 700px;
+            height: 730px;
+            background-color: #30d5c8 ;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: -1;
+            transform: translate(40%, 59%);
+        }
+
+        .box2 h1 { 
+            margin: 90px 0 0 0;
+            text-align: center;
+            font-size: 9vmin;
+            margin-bottom: 27px;
+            color: #004b49;
+        }
+
+        .box2 form {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            
+        }
+
+        form input {
+            width: 500px;
+            height: 45px;
+            border: none;
+            padding: 15px;
+            margin-bottom: 28px;
+            font-size: 15px;
+            letter-spacing: 1px;
+        }
+
+        input::placeholder {
+            font-size: 15px;
+            letter-spacing: 1px;
+            color: #a9a9a9;
+        }
+
+        textarea {
+            margin-bottom: 28px;
+            font-size: 17px;
+            letter-spacing: 1px;
+            padding: 15px;
+        }
+
+        .btn {
+            height: 48px;
+            width: 120px;
+            border: 2px solid #fff;
+            background-color: transparent;
+            color: #004b49;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .btn:hover {
+            background-color: #008b8b ;
+            color: #fff;
+        }
+
+        
+    </style>
+</head>
+<body>
+
+    <div class="box1">
+        <div class="boxa">
+            <img src="images/placeholder.png" alt="" width="65px">
+            <h2>OUR MAIN OFFICE</h2>
+            <p>SoHo 94 Broadway St New <br> York, NY 1001</p>
+        </div>
+        <div class="boxb">
+            <img src="images/phone-call.png" alt="" width="65px">
+            <h2>PHONE NUMBER</h2>
+            <p>234-9876-5400 <br> 888-0123-4567 (Toll Free)</p>
+        </div>
+        <div class="boxc">
+            <img src="images/fax.png" alt="" width="65px">
+            <h2>FAX</h2>
+            <p>1-234-567-8900</p>
+        </div>
+        <div class="boxd">
+            <img src="images/email.png" alt="" width="65px">
+            <h2>EMAIL</h2>
+            <p>hello@index.html</p>
+        </div>
+    </div>
+
+    <div class="box2">
+        <h1>Contact Us</h1>
+
+        <form action="">
+            <input type="text" placeholder="Enter your Name" required>
+            <input type="email" placeholder="Enter a valid email address" required> 
+            <textarea name="" id="" cols="30" rows="10" required></textarea>
+            <input type="button" value="SUBMIT" class="btn">
+        </form>
+
+    </div>
+    
+</body>
+</html>
